@@ -129,10 +129,6 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
-const newFeature = () => {
-  console.log('Welcome to the application! ');
-};
-
 //--PUBLISHER SUSCRIBER PATTERN
 
 const init = function () {
@@ -150,7 +146,6 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   //Submit new recipe
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  newFeature();
 };
 
 init();
